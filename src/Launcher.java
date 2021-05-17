@@ -8,7 +8,9 @@ public class Launcher {
         while (!text.equals("quit")) {
             System.out.println("unknow command");
             System.out.println("faut que tu mettes quit");
+            text = variable.nextLine();
         }
+
 
     }
 }
